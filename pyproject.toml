@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spotify-player"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tekore = "^2.1.1"
+spotify = "^0.10.2"
+spotipy = "^2.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
